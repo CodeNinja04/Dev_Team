@@ -3,7 +3,7 @@ import { NavLink, Link, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutUser } from "../../../actions/authActions";
 
-import "./SideNav.scss";
+import "./SideNav.css";
 
 class SideNav extends Component {
   onLogoutClick = e => {

@@ -1,10 +1,10 @@
-@import "../../../../styles/base.scss";
+
 
 .project-header {
   text-align: center;
   font-size: 24px;
-  font-weight: $medium;
-  color: $black;
+  font-weight: 500;
+  color: #212121;
 }
 
 .project-subheader {
@@ -27,18 +27,18 @@
   min-height: 600px;
   margin: 0 auto;
   width: 900px;
-  background-color: $white;
-  border: 1px solid $gray;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
 }
 
 .add-btn {
   margin-bottom: 0.7rem;
   margin-left: 1rem;
-  background-color: $white;
-  color: $primaryBlue;
+  background-color: #fff;
+  color: #1652f0;
 
   &:hover {
-    color: $white;
+    color: #fff;
   }
 }
 
@@ -46,7 +46,7 @@
   transition: all 0.25s ease 0s;
 
   &:hover {
-    color: $hoverBlue;
+    color: #154de0;
     transition: all 0.25s ease 0s;
   }
 }
@@ -67,14 +67,14 @@
     margin-left: 1rem;
 
     &:hover {
-      background-color: $lighterGray;
+      background-color: #fafafa;
       cursor: pointer;
     }
   }
 
   div {
     width: 100%;
-    border: 1px solid $gray;
+    border: 1px solid #e0e0e0;
     height: 40px;
     line-height: 1.5em;
     outline: 0;
@@ -85,7 +85,7 @@
   }
 
   i {
-    color: $primaryBlue;
+    color: #1652f0;
 
     &:hover {
       cursor: pointer;
@@ -112,7 +112,7 @@
 
     &:hover {
       cursor: pointer;
-      background-color: $lighterGray;
+      background-color: #fafafa;
     }
   }
 }
@@ -123,16 +123,16 @@
 }
 
 .muted {
-  color: $darkGray;
+  color: #616161;
 }
 
 .projects-column-headers {
-  font-family: $code;
+  font-family:"Oxygen Mono", monospace;
   display: flex;
   margin-left: auto;
   font-size: 14px;
   margin-right: 16px;
-  font-weight: $light;
+  font-weight: 300;
 
   p {
     &:nth-of-type(1) {

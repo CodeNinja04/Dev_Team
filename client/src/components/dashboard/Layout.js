@@ -18,7 +18,7 @@ import Tasks from "./MainContent/Tasks";
 import Project from "./MainContent/Project/Project";
 import NotFound from "../404/404";
 
-import "./Layout.scss";
+import "./Layout.css";
 
 class Layout extends Component {
   componentDidMount() {

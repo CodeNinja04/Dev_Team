@@ -14,7 +14,7 @@ import {
 
 import moment from "moment";
 
-import "./Modal.scss";
+import "./Modal.css";
 
 class Modal extends Component {
   state = {

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { logoutUser } from "../../../actions/authActions";
 import { Link, withRouter } from "react-router-dom";
 
-import "./TopNav.scss";
+import "./TopNav.css";
 
 class TopNav extends Component {
   state = {

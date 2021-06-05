@@ -1,12 +1,12 @@
-@import "../../../styles/base.scss";
+
 
 .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  border-bottom: 2px solid $lighterGray;
-  background-color: $white;
+  border-bottom: 2px solid #fafafa;
+  background-color: #fff;
   position: fixed;
   width: 100%;
   min-width: 1100px;
@@ -32,12 +32,12 @@
   .brand-header {
     margin-left: 2rem;
     font-weight: 500;
-    font-family: $code;
+    font-family: "Oxygen Mono", monospace;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     user-select: none;
-    color: $black;
+    color: #212121;
   }
 
   .brand-header-sub {
@@ -55,22 +55,22 @@
   .email {
     font-size: 10px;
     margin-right: 1rem;
-    color: $darkGray;
+    color: #616161;
     text-align: right;
     line-height: 0.5rem;
   }
 
   .sign-out {
-    background-color: $lighterGray;
-    color: $darkGray;
+    background-color: #fafafa;
+    color: #616161;
     text-decoration: none;
-    font-family: $code;
+    font-family: "Oxygen Mono", monospace;
     transition: all 0.25s ease 0s;
     padding: 0.25rem;
     display: inline-block;
 
     &:hover {
-      color: $primaryBlue;
+      color: #1652f0;
       transform: translateY(-2.5px);
       transition: all 0.25s ease 0s;
       cursor: pointer;
@@ -82,8 +82,8 @@
     width: 15px;
     padding: 1.25rem;
     font-size: 12px;
-    background-color: $red;
-    color: $white;
+    background-color: #d9605a;
+    color: #fff;
     margin-right: 2rem;
     display: inline-block;
     user-select: none;
@@ -100,14 +100,14 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    border: 1px solid $gray;
-    background-color: $white;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
     padding: 1rem;
     transform: translate(-9rem, 1.5rem);
 
     p {
       width: 140px;
-      color: $darkGray;
+      color: #616161;
       padding-left: 1rem;
       padding-right: 1rem;
       font-size: 12px;
@@ -116,15 +116,15 @@
     li {
       width: 140px;
       padding: 1rem;
-      color: $black;
-      background-color: $white;
+      color: #212121;
+      background-color: #fff;
       transition: all 0.25s ease 0s;
       font-size: 14px;
 
       &:hover {
         cursor: pointer;
-        color: $primaryBlue;
-        background-color: $lighterGray;
+        color: #1652f0;
+        background-color: #fafafa;
         transition: all 0.25s ease 0s;
       }
     }
