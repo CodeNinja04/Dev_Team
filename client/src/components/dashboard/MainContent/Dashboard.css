@@ -30,8 +30,9 @@
   color: #212121;
   background-color: #fff;
   font-family: "Oxygen Mono", monospace;
+}
 
-  &:hover {
+  .project-icon :hover {
     color: #1652f0;
     border: 1px solid #1652f0;
     transition: all 0.25s ease 0s;
@@ -39,11 +40,11 @@
     transform: translateY(-2.5px);
   }
 
-  &:hover .project-info-button {
+  .project-icon :hover .project-info-button {
     display: block;
     transition: all 0.25s ease 0s;
   }
-}
+
 
 .project-name {
   text-overflow: ellipsis;
@@ -63,10 +64,11 @@
   transition: all 0.25s ease 0s;
   padding: 0.5rem;
   border-radius: 4px;
+}
 
-  &:hover {
+  .project-icon :hover {
     background-color: #154de0;
     color: #fff;
     transition: all 0.25s ease 0s;
   }
-}
+

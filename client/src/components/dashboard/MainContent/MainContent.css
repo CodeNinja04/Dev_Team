@@ -39,16 +39,16 @@
   font-family: "Oxygen Mono", monospace;
   transition: all 0.25s ease 0s;
   padding: 0rem 1rem;
-  min-width: 200px;
+  min-width: 200px;}
 
-  &:hover {
+  .main-btn:hover {
     background-color: #154de0;
     border-color: #154de0;
     transform: translateY(-2.5px);
     cursor: pointer;
     transition: all 0.25s ease 0s;
   }
-}
+
 
 .split {
   display: flex;

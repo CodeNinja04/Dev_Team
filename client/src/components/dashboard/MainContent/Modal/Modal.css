@@ -30,11 +30,11 @@
   color: #212121;
   font-size: 18px;
   display: inline-block;
-
-  &:hover {
+}
+  .close-modal :hover {
     cursor: pointer;
   }
-}
+
 
 .form-group {
   margin-bottom: 1rem;
@@ -65,18 +65,18 @@
   transition: all 0.25s ease 0s;
   font-size: 16px;
   padding: 0 1rem;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem;}
 
-  &:hover {
+  .form-input :hover {
     border-color: #e0e0e0;
     transition: all 0.25s ease 0s;
   }
 
-  &:focus {
+  .form-input :focus {
     border-color:#1652f0;
     transition: all 0.25s ease 0s;
   }
-}
+
 
 .split {
   display: flex;
@@ -115,12 +115,12 @@
 
 .add-members {
   background-color: #fff;
-  color:#1652f0;
+  color:#1652f0;}
 
-  &:hover {
+  .add-member :hover {
     color: #fff;
   }
-}
+
 
 .create-project,
 .update-project,
@@ -132,14 +132,14 @@
 .delete-project {
   margin-left: 335px;
   background-color: #d9605a;
-  border: 1px solid #d9605a;
+  border: 1px solid #d9605a;}
 
-  &:hover {
+  .delete-project :hover {
     background-color: #d9605a;
     border: 1px solid #d9605a;
     opacity: 0.9;
   }
-}
+
 
 .delete {
   display: flex;
@@ -147,10 +147,10 @@
   margin-left: 1rem;
   color: #212121;
   font-size: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem;}
 
-  &:hover {
+  .delete :hover {
     cursor: pointer;
     color: #d9605a;
   }
-}
+

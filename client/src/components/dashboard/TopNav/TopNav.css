@@ -18,17 +18,18 @@
   margin-left: 2rem;
   display: flex;
   align-items: center;
+}
 
   .hamburger-top-menu {
     font-size: 20px;
     transition: all 0.25s ease 0s;
     display: none;
-
-    &:hover {
-      cursor: pointer;
-    }
   }
 
+    .hamburger-top-menu :hover {
+      cursor: pointer;
+    }
+    
   .brand-header {
     margin-left: 2rem;
     font-weight: 500;
@@ -43,14 +44,14 @@
   .brand-header-sub {
     font-size: 0.5rem;
   }
-}
+
 
 /* Right side of nav */
 .right-top {
   display: flex;
   align-items: center;
   margin-right: 225px;
-  transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;}
 
   .email {
     font-size: 10px;
@@ -68,14 +69,14 @@
     transition: all 0.25s ease 0s;
     padding: 0.25rem;
     display: inline-block;
+  }
 
-    &:hover {
+    .sign-out :hover {
       color: #1652f0;
       transform: translateY(-2.5px);
       transition: all 0.25s ease 0s;
       cursor: pointer;
     }
-  }
 
   .profile {
     height: 15px;
@@ -88,13 +89,14 @@
     display: inline-block;
     user-select: none;
     transition: all 0.25s ease 0s;
+  }
 
-    &:hover {
+    .profile  :hover {
       opacity: 0.9;
       cursor: pointer;
       transition: all 0.25s ease 0s;
     }
-  }
+  
 
   .dropdown {
     position: absolute;
@@ -104,6 +106,7 @@
     background-color: #fff;
     padding: 1rem;
     transform: translate(-9rem, 1.5rem);
+  }
 
     p {
       width: 140px;
@@ -120,16 +123,17 @@
       background-color: #fff;
       transition: all 0.25s ease 0s;
       font-size: 14px;
+    }
 
-      &:hover {
+      li:hover {
         cursor: pointer;
         color: #1652f0;
         background-color: #fafafa;
         transition: all 0.25s ease 0s;
       }
-    }
-  }
-}
+    
+  
+
 
 .hamburger-visible {
   display: block !important;

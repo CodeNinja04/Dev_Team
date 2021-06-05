@@ -9,17 +9,16 @@
   position: fixed;
   z-index: 1;
   margin-left: 0px;
-  transition: margin-left 0.25s ease 0s;
+  transition: margin-left 0.25s ease 0s;}
 
   .top {
     margin-top: 1.55rem;
-    padding-left: 0px;
+    padding-left: 0px;}
 
-    li {
-      &:hover {
+    li :hover {
         cursor: pointer;
       }
-    }
+    
 
     .hamburger-side-menu {
       color: #fff;
@@ -28,30 +27,30 @@
       margin-right: 1rem;
       transition: all 0.25s ease 0s;
       font-size: 20px;
-      margin-bottom: 1rem;
+      margin-bottom: 1rem;}
 
-      &:hover {
+      .hamburger-side-menu :hover {
         cursor: pointer;
       }
-    }
+    
 
     div,
     a {
       color: #fff;
       width: 100%;
       display: block;
-      transition: all 0.25s ease 0s;
+      transition: all 0.25s ease 0s;}
 
-      &:hover {
+      div,a :hover {
         cursor: pointer;
         transition: all 0.25s ease 0s;
       }
 
       li {
         padding: 0.75rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;}
 
-        &:hover {
+        li :hover {
           background-color: #222a37;
         }
 
@@ -63,10 +62,10 @@
           padding-left: 1rem;
           padding-top: 0.25rem;
         }
-      }
-    }
-  }
-}
+      
+    
+  
+
 
 .invisibile {
   margin-left: -225px;
@@ -91,18 +90,18 @@
 
 .project-listings {
   height: 305px;
-  overflow: scroll;
+  overflow: scroll;}
 
-  &::-webkit-scrollbar {
+  .project-listings ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 4px;
   }
 
-  &::-webkit-scrollbar-thumb {
+  .project-listings::-webkit-scrollbar-thumb {
     border-radius: 1rem;
     background-color: #1652f0;
   }
-}
+
 
 .project-listing {
   font-size: 14px;
@@ -112,9 +111,9 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  width: 150px;
+  width: 150px;}
 
-  &:hover {
+  .project-listing:hover {
     cursor: pointer;
   }
 
@@ -125,4 +124,4 @@
   a:visited {
     color: #fff;
   }
-}
+
