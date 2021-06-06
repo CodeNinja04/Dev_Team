@@ -6,8 +6,8 @@ import { getTasks, deleteTask } from "../../../../actions/taskActions";
 import Spinner from "../../../common/Spinner";
 import Modal from "../Modal/Modal";
 
-import "../MainContent.scss";
-import "./Project.scss";
+import "../MainContent.css";
+import "./Project.css";
 
 class Project extends Component {
   state = {

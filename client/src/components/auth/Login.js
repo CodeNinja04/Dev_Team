@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 
-import "./Auth.scss";
+import "./auth.css";
 
 class Login extends Component {
   constructor() {
@@ -17,7 +17,7 @@ class Login extends Component {
   }
 
   componentDidMount() {
-    // If logged in and user navigates to Login page, should redirect them to dashboard
+   
     if (this.props.auth.isAuthenticated) {
       this.props.history.push("/dashboard");
     }

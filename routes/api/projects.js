@@ -4,9 +4,7 @@ const passport = require("passport");
 
 const Project = require("../../models/Project");
 
-// @route GET api/projects
-// @desc Get all projects for a specific user
-// @access Private
+
 router.get(
   "/",
   passport.authenticate("jwt", { session: false }),
@@ -43,22 +41,18 @@ router.get(
   }
 );
 
-// @route GET api/projects/:id
-// @desc Get specific project by id
-// @access Private
-router.get(
+
+router.get(                                       
   "/:id",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     let id = req.params.id;
 
-    Project.findById(id).then(project => res.json(project));
-  }
+    Project.findById(id).then(project => res.json(project));        
+   }
 );
 
-// @route POST api/projects/create
-// @desc Create a new project
-// @access Private
+
 router.post(
   "/create",
   passport.authenticate("jwt", { session: false }),
@@ -79,9 +73,7 @@ router.post(
   }
 );
 
-// @route PATCH api/projects/update
-// @desc Update an existing project
-// @access Private
+
 router.patch(
   "/update",
   passport.authenticate("jwt", { session: false }),

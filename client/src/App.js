@@ -23,7 +23,7 @@ import Tools from "./components/extra/Tools/Tools";
 import Landing from "./components/extra/Landing/Landing";
 
 // Style
-import "./App.scss";
+import "./App.css";
 
 // Check for token to keep user logged in
 if (localStorage.jwtTokenTeams) {

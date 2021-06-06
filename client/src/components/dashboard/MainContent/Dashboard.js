@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./MainContent.scss";
-import "./Dashboard.scss";
+import "./MainContent.css";
+import "./Dashboard.css";
 
 import { connect } from "react-redux";
 
