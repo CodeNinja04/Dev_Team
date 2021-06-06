@@ -51,9 +51,9 @@ class SideNav extends Component {
               <i className="material-icons icon">home</i>Home
             </li>
           </NavLink>
-          <NavLink to="/about">
+          <NavLink to="/compiler">
             <li>
-              <i className="material-icons icon">info</i>About
+              <i className="material-icons icon">info</i>Compiler
             </li>
           </NavLink>
           <NavLink exact activeClassName="active-page" to="/contact">

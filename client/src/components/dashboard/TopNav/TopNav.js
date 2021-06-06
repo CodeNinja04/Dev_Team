@@ -63,20 +63,17 @@ class TopNav extends Component {
             menu
           </i>
           <Link to="/dashboard">
-            <h1 className="brand-header">
-              Team<span className="brand-header-sub">s</span>
+            <h1 className="text-header">
+              
+              <i className="fab fa-teamspeak" />
+              <span > DEV_TEAMS</span>
             </h1>
           </Link>
           <Link to="/about">
-            <h1 className="brand-header">
-              About
-              </h1>
-            
+            <h1 className="text-header">About</h1>
           </Link>
-          <Link  to="/contact">
-            
-              <i class="material-icons icon">contact_mail</i> Contact
-            
+          <Link to="/contact">
+            <h1 className="text-header">Contact Us</h1>
           </Link>
         </div>
         <ul className="right-top">

@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
 // Utils
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
@@ -18,8 +19,8 @@ import PrivateRoute from "./components/private-route/PrivateRoute";
 import Layout from "./components/dashboard/Layout";
 import NotFound from "./components/404/404";
 import About from "./components/extra/About/About";
-import Contact from "./components/extra/Contact/Contact";
-import Tools from "./components/extra/Tools/Tools";
+import Contact from "./components/extra/Contact/contact";
+import Compiler from "./components/extra/Tools/Compiler";
 import Landing from "./components/extra/Landing/Landing";
 
 // Style
@@ -57,10 +58,10 @@ class App extends Component {
             <Switch>
               <Route exact path="/login" component={Login} />
               <Route exact path="/register" component={Register} />
-              <PrivateRoute exact path="/about" component={About} />
-              <PrivateRoute exact path="/contact" component={Contact} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/contact" component={Contact} />
               <Route exact path="/" component={Landing} />
-              <Route exact path="/tools" component={Tools} />
+              <Route exact path="/compiler" component={Compiler} />
               <PrivateRoute exact path="/dashboard" component={Layout} />
               <Route
                 component={localStorage.jwtTokenTeams ? Layout : NotFound}

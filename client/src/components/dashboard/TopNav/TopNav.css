@@ -4,7 +4,7 @@
 	 align-items: center;
 	 height: 70px;
 	 border-bottom: 2px solid #fafafa;
-	 background-color: #fff;
+	 background-color:#191f2b;
 	 position: fixed;
 	 width: 100%;
 	 min-width: 1100px;
@@ -119,5 +119,9 @@
  .right-top-visibile {
 	 margin-right: 0px;
 	 transition: all 0.25s ease 0s;
+}
+
+.text-header{
+	margin-left: 40px;
 }
  
